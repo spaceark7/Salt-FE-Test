@@ -6,6 +6,18 @@ import { forwardRef, useImperativeHandle, useRef } from 'react'
 const CoreValue = forwardRef(function CoreValue(props, ref) {
   const coreValueRef = useRef(null)
 
+// const printMultipliedNumber = (number, max_count) => {
+//   let result = ""
+//   for (let i = 0; i < max_count; i++) {
+//       setInterval(() => {
+//         result = result + number.toString() + " "
+//       },
+//       5000)
+//   }
+
+//   return result
+
+// }
   useImperativeHandle(ref, () => ({
     scrollIntoView: () => {
       coreValueRef.current.scrollIntoView({
@@ -24,7 +36,7 @@ const CoreValue = forwardRef(function CoreValue(props, ref) {
       <Box className='px-12'>
         <Typography
           color='primary'
-          className='text-center text-4xl font-bold mb-8'
+          className='text-center text-4xl font-bold mb-8 text'
           variant='h1'
         >
           Our Core Values
