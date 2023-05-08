@@ -14,6 +14,11 @@ Silahkan clone source code kemudian buat direktori baru kemudian buka terminal a
 ```
 
     
+## Demo
+
+https://salt-fe-test-weld.vercel.app/
+
+
 ## Fitur
 
 - Single Page App
@@ -38,4 +43,9 @@ I'm a ReactJs developer...
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hasbi-ash-shiddiq-02599387/)
 
+
+
+## Screenshots
+
+[![app.png](https://i.postimg.cc/v8CXjJtv/app.png)](https://postimg.cc/NL712PVy)
 
