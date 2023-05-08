@@ -4,7 +4,7 @@ import NavBar from '../components/Navigation/NavBar'
 import AboutCarousel from '../components/About/AboutCarousel'
 import CoreValue from '../components/CoreValue/CoreValue'
 import Speciality from '../components/Speciality/Speciality'
-import Footer from '../components/Footer./Footer'
+import Footer from '../components/Footer/Footer'
 import { useRef } from 'react'
 
 const HomePage = () => {
